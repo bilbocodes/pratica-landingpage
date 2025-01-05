@@ -1,0 +1,91 @@
+@import url(/src/styles/variables.css);
+
+main {
+    background: var(--white);
+    font-family: var(--font-principal);
+    margin: 79px 165px 0 165px;
+}
+
+.clients {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+}
+
+.star {
+    align-self: flex-end;
+}
+
+.logos {
+    width: 100%;
+    height: 100%; 
+}
+
+.logos__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.clients p {
+    margin-top:20px ;
+    color: #687690;
+}
+
+.how-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.title__about {
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--dark-blue);
+}
+
+.text__about {
+    font-size: 16px;
+    font-weight: normal;
+    color: #5A6473;
+    margin: 20px 0 70px 0;
+}
+.seller__type {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.guider__title {
+    font-size: 20px;
+    color: #3B3C45;
+    font-weight: 500;
+    margin: 26px 0 10px 0;
+}
+
+.how-buy {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0689FF;
+}
+
+.more-about {
+    margin-top: 48px;
+}
+.full-guide {
+    color: var(--white);
+    background: var(--dark-blue);
+    border-radius: 10px;
+    padding: 15px 25px;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: var(--font-principal);
+    border: none;
+}
+
