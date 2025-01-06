@@ -89,3 +89,54 @@ main {
     border: none;
 }
 
+.cards {
+    display: flex;
+    gap:30px;
+}
+
+.feature {
+    margin-top: 165px;
+}
+
+
+.title__feature {
+    font-size: 35px;
+    color: #000339;
+    font-weight: 600;
+}
+
+.feature__text {
+    font-size: 16px;
+    color: #5A6473;
+    font-weight: normal;
+    margin: 15px 0 70px 0;
+}
+
+.card__value {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000339;
+    margin: 20px 0 8px 20px;
+}
+
+.card__adress {
+    font-weight: 500;
+    font-size: 14px;
+    color: #A3A6AB; 
+    margin: 0 0 20px 20px;
+}
+
+.info__item {
+    color: #4D4D52;
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+
+.property-info {
+    list-style: none;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
