@@ -1,0 +1,48 @@
+@import url(/src/styles/variables.css);
+
+footer {
+    font-family: var(--font-principal);
+    background: var(--white);
+    padding: 50px 165px 58px 165px;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title__menu {
+    padding: 0 0 40px 0 ;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1C1C1D;
+}
+
+.menu__social {
+    display: flex;
+}
+.menu__item {
+    font-size: 16px;
+    font-weight: normal;
+    color: #7A7A7E;
+    list-style: none;
+    padding-bottom: 18px;
+}
+
+.text__footer {
+    font-size: 16px;
+    font-weight: normal;
+    color: #7A7A7E;
+}
+
+.footer__copyright {
+    color: #C2C2C2;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.besnik {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
